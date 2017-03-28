@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SectorView">
+        <attr name="diam" format="dimension"/>
+        <attr name="sectorColor" format="color"/>
+        <attr name="sectorColor_selected" format="color"/>
+        <attr name="uDOrRl" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:JackHou="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gree.customsector.MainActivity"
+    android:background="#F4F4F4"
+    android:orientation="vertical"
+    >
+
+    <com.gree.customsector.SectorView
+        android:background="#F4F4F4"
+        JackHou:sectorColor="#F4F4F4"
+        JackHou:sectorColor_selected="#095AB5"
+        JackHou:uDOrRl="true"
+        JackHou:diam="400px"
+        android:id="@+id/sv_rf"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_gravity="center_horizontal"
+        />
+    <com.gree.customsector.SectorView
+        android:background="#F4F4F4"
+        JackHou:sectorColor="#F4F4F4"
+        JackHou:sectorColor_selected="#095AB5"
+        JackHou:uDOrRl="false"
+        JackHou:diam="400px"
+        android:id="@+id/sv_ud"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
